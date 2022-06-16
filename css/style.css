@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* Only logo and logo image styling */
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+.logo img{
+    width: 35%;
+    border: 3px solid white;
+    border-radius: 70px;
+    margin: 5px;
+}
+
+/* Nav bar styling and its li and ahrf tags styling */
+
+.navbar{
+    display: flex;
+    font-size: 18px;
+    padding-left: 20px;
+    font-weight: bolder;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+}
+
+.nav-list{
+    width: 70%;
+    display: flex;
+    align-items: center;
+}
+.nav-list li{
+    list-style: none;
+    padding: 25px 25px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+}
+.nav-list li a:hover{
+    color: cyan;
+}
+
+.rightNav{
+    width: 30%;
+    text-align: right;
+    padding: 0px 23px;
+}
+
+#search{
+    padding: 5px;
+    font-size: 17px;
+    border: 3px solid red;
+    border-radius: 10px;
+}
+
+.background{
+    background: rgba(0, 0, 0, 0.7) url('../img/bg.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+/* Section styling starts from here */
+
+.firstSection{
+    height: 100vh;
+}
+
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 70%;
+    margin: auto;
+    height: 80%;
+}
+
+.firstHalf{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.secondHalf{
+    width: 30%;
+}
+.secondHalf img{
+    width: 70%;
+    padding: 4px;
+    display: block;
+    border: 4px solid white;
+    border-radius: 200px;
+}
+
+.text-big{
+    font-size: 40px;
+}
+
+.text-small{
+    font-size: 20px;
+}
+
+.btn{
+    margin: 7px 0;
+    padding: 8px 5px;
+    border: 2px solid white;
+    border-radius: 8px;
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+    background: none;
+}
+
+.btn-sm{
+    padding: 5px 10px;
+    vertical-align: middle;
+}
+
+.btn-dark{
+    text-align: center;
+    color: black;
+    border: 2px solid black;
+    background-color: blueviolet;
+}
+
+/* Section CSS starts here */
+
+.section{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: auto;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 10px;
+    box-shadow: 0 5px 5px 2px rgb(130, 190, 233);
+}
+.section-left{
+    flex-direction: row-reverse;
+}
+
+.paras{
+    padding: 10px 65px;
+}
+
+.sectionTag{
+    padding: 16px;
+}
+
+.sectionSubTag{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.thumbnail img{
+    width: 250px;
+    border: 2px solid black;
+    border-radius: 30px;
+    margin-top: 19px;
+}
+
+/* Contact and Footer part CSS */
+
+.contact{
+    background-color: rgba(179, 179, 179, 0.759);
+    height: 65vh;
+}
+
+.text-center{
+    text-align: center;
+    padding: 7px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.form{
+    max-width: 62%;
+    margin: auto;
+}
+
+.form-input{
+    width: 100%;
+    margin: 10px 0;
+    padding: 4px 3px;
+    font-size: 19px;
+    border: 1.5px solid black;
+    border-radius: 6px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.footer{
+    color: white;
+}
+
+.burger{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 15%;
+}
+
+.line{
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 3px 3px;
+}
+
+
