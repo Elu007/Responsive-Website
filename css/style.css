@@ -214,10 +214,8 @@ html{
 }
 
 .line{
-    width: 33px;
-    background-color: white;
-    height: 4px;
+    width: 25px;
+    background-color: antiquewhite;
+    height: 3px;
     margin: 3px 3px;
 }
-
-

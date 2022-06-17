@@ -1,6 +1,11 @@
-@media only screen and (max-width: 1200px){
+@media only screen and (max-width: 1192px){
     .nav-list{
         flex-direction: column;
+        font-size: larger;
+        font-weight: bolder;
+    }
+    .nav-list li{
+        padding: 5px 5px;
     }
     .navbar{
         flex-direction: column;
